@@ -1,0 +1,157 @@
+body{
+    font-family: sans-serif;
+    background-color: #ff4c68;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+.tity{
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container-fluid{
+  padding: 5% 3%;
+}
+.navbar-brand{
+  position: absolute;
+  right: 880px;
+
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+/*download button   */
+
+.btn{
+  margin: 5% 4% 3% 0;
+}
+
+.iphone{
+  width: 40%;
+  transform: rotate(25deg);
+
+}
+
+.features-box{
+  padding: 30 30px;
+  text-align: center;
+}
+
+#features{
+  padding: 3% 15%;
+  background-color: #fff;
+
+}
+
+.icon{
+  color: pink;
+}
+.icon:hover{
+  color:red;
+}
+.dogimg{
+  border-radius: 100%;
+  margin-left: 30%;
+  padding-bottom: 20px;
+}
+#testimonials{
+  background-color: #ef8172;
+
+}
+
+.testi{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 2.9rem;
+text-align: center;
+color: white;
+
+
+  }
+
+  .press1{
+    background-color: #ef8172;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+.press-img{
+  width: 20%;
+  padding-left: 80px;
+}
+
+#pricing{
+
+    padding-top: 30px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.row{
+  padding-top: 30px;
+  font-family: sans-serif;
+
+}
+
+.head3{
+  background-color: white;
+}
+.btn{
+  margin-bottom: 18px;
+}
+
+
+
+
+.foot1{
+  text-align: center;
+  font-size: 3.2rem;
+  font-family:  monospace;
+  color: white;
+  padding-top: 50px;
+
+  padding-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+#cta{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.foot2{
+
+  padding-bottom: 20px;
+
+  text-align: center;
+
+}
+.ic{
+  margin-left: 2%;
+  position: relative;
+  left: 420px;
+  margin-top: 70px;
+
+}
+
+.footer1{
+  background-color: #ef8172;
+
+}
+
+
+ /*  Media Query point */
+
+@media (max-width : 800px) {
+  .iphone{
+    transform: rotate(-25deg);
+  }
+}
